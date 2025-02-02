@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Complejo Santa Rosa</title>
+  <link rel="stylesheet" href="./style.css">
+<style>
+    .wrap {
+        height: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        max-width: 120px;
+        min-height: 40px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #313133;
+        background: #4FD1C5;
+        background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+        border: none;
+        border-radius: 1000px;
+        box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+    }
+
+
+    .button:hover, .button:focus {
+        color: #313133;
+        transform: translateY(-6px);
+    }
+
+    button:hover::before, button:focus::before {
+        opacity: 1;
+    }
+
+    button::after {
+        content: '';
+        width: 30px; height: 30px;
+        border-radius: 100%;
+        /*border: 6px solid #00FFCB;*/
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: ring 1.5s infinite;
+    }
+    .div-btn{
+        text-align-last: center;
+    }
+    .select-test{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 0;
+        background: #909c95;
+        color: #fff;
+        border: 1px solid #909c95;
+        padding: 4px;
+        border-radius: 9px;
+    }
+
+
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Complejo Santa Rosa</h1>
+<h2 style="text-align:center">Calendario 2023 - 
+    <select name="" id="" class="select-test">
+        <option value="0">TODOS</option>
+        <option value="0">Enero</option>
+        <option value="0">Febrero</option>
+        <option value="0">Marzo</option>
+    </select>
+</h2>
+<ul>
+    <li style="--accent-color:#41516C">
+        <div class="date">Enero</div>
+        <div class="title">🚨Sábado 17</div>
+        <div class="descr">📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+        <div class="title">🚨Domingo 30 de Abril ⏰ desde 𝟮𝗽𝗺</div>
+        <div class="descr">Lo mejor de la Cumbia estará en la 𝐆𝐫𝐚𝐧 𝐅𝐢𝐞𝐬𝐭𝐚 𝐝𝐞𝐥 𝐓𝐫𝐚𝐛𝐚𝐣𝐚𝐝𝐨𝐫 𝟐𝟎𝟐𝟑👨‍🌾❗ 🎶. 🏃‍♂CORRE QUE QUEDAN POCAS ENTRADAS de 𝗣𝗥𝗘𝗩𝗘𝗡𝗧𝗔 𝟮𝘅𝟭 
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">Febrero</div>
+        <div class="title">🚨Sábado 17</div>
+        <div class="descr">📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+    </li>
+    <li style="--accent-color:#E24A68">
+        <div class="date">Marzo</div>
+        <div class="title">🚨Sábado 17</div>
+        <div class="descr">📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">Abril</div>
+        <div class="title">🚨Sábado 17</div>
+        <div class="descr">📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+    </li>
+    <li style="--accent-color:#4CADAD">
+        <div class="date">Mayo</div>
+        <div class="title">🚨Sábado 17</div>
+        <div class="descr">📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita
+            <div class="div-btn">
+                <button class="button">Reservar</button>   
+            </div>
+        </div>
+    </li>
+</ul>
+<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
+<!-- partial -->
+  
+</body>
+</html>

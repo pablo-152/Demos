@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Complejo Santa Rosa</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<style>
+	.select-test{
+		margin-bottom: 10px;
+		margin-top: 10px;
+		font-family: cursive, sans-serif;
+		outline: 0;
+		background: #909c95;
+		color: #fff;
+		border: 1px solid #909c95;
+		padding: 4px;
+		border-radius: 9px;
+	}
+
+	.wrap {
+        height: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        max-width: 190px;
+        min-height: 40px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #313133;
+        background: #4FD1C5;
+        background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+        border: none;
+        border-radius: 1000px;
+        /*box-shadow: 12px 12px 24px rgba(79,209,197,.64);*/
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        padding: 10px;
+    }
+
+
+    .button:hover, .button:focus {
+        color: #313133;
+        transform: translateY(-6px);
+    }
+
+    button:hover::before, button:focus::before {
+        opacity: 1;
+    }
+
+    button::after {
+        content: '';
+        width: 30px; height: 30px;
+        border-radius: 100%;
+        /*border: 6px solid #00FFCB;*/
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: ring 1.5s infinite;
+    }
+    .div-btn{
+        text-align-last: center;
+    }
+	
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section id=timeline>
+	<h1>Complejo Santa Rosa</h1>
+	<h2 style="text-align:center" class="filtro">Calendario 2023 - 
+		<select name="" id="" class="select-test">
+		  <option value="0">TODOS</option>
+		  <option value="0">Enero</option>
+		  <option value="0">Febrero</option>
+		  <option value="0">Marzo</option>
+		</select>
+	  </h2>
+	<div class="demo-card-wrapper">
+		<div class="demo-card demo-card--step1">
+			<div class="head">
+				<div class="number-box">
+					<span>30</span>
+				</div>
+				<h2> Junio</h2>
+				
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<div style="text-align: -webkit-center;">
+					<img style="width: auto;max-height: 209px!important;" class="img-evento" src="https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/356845307_740609751402137_8497927027741604559_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sKlTFx9vzgAAX_zsPeK&_nc_ht=scontent.flim28-1.fna&oh=00_AfDWCTsStpL7JeXdjaafYbeiIZ9PkJPwuOytQUwoFhz3ng&oe=64A2330C" alt="Graphic">
+				</div>
+				<div class="div-btn" >
+					<button class="button">Reservar</button>   
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step2">
+			<div class="head">
+				<div class="number-box">
+					<span>28</span>
+				</div>
+				<h2>Julio</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<div style="text-align: -webkit-center;">
+					<img style="width: auto;max-height: 209px!important;" src="https://scontent.flim28-1.fna.fbcdn.net/v/t39.30808-6/356845307_740609751402137_8497927027741604559_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=sKlTFx9vzgAAX_zsPeK&_nc_ht=scontent.flim28-1.fna&oh=00_AfDWCTsStpL7JeXdjaafYbeiIZ9PkJPwuOytQUwoFhz3ng&oe=64A2330C" alt="Graphic">
+				</div>
+				<div class="div-btn" >
+					<button class="button">Reservar</button>   
+				</div>
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span>03</span>
+				</div>
+				<h2>Agosto</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+				<div class="div-btn" >
+					<button class="button">Reservar</button>   
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="demo-card demo-card--step4">
+			<div class="head">
+				<div class="number-box">
+					<span>04</span>
+				</div>
+				<h2>Septiembre</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step5">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2>Octubre</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step6">
+			<div class="head">
+				<div class="number-box">
+					<span>06</span>
+				</div>
+				<h2>Noviembre</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step7">
+			<div class="head">
+				<div class="number-box">
+					<span>07</span>
+				</div>
+				<h2>Diciembre</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step8">
+			<div class="head">
+				<div class="number-box">
+					<span>08</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step9">
+			<div class="head">
+				<div class="number-box">
+					<span>09</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step10">
+			<div class="head">
+				<div class="number-box">
+					<span>10</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step11">
+			<div class="head">
+				<div class="number-box">
+					<span>11</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+		<div class="demo-card demo-card--step12">
+			<div class="head">
+				<div class="number-box">
+					<span>12</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>📌Feliz día del Padre con los mejores en cumbia y folclor<br>🚨Lugar: Complejo Santa Rosa de Santa Anita</p>
+				<img src="./1000x500.png" alt="Graphic">
+			</div>
+		</div>
+    
+	</div>
+</section>
+<!-- partial -->
+  
+</body>
+</html>
